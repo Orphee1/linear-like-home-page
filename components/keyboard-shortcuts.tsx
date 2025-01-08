@@ -22,7 +22,8 @@ const shortcuts = [
 const KeyboardShortcuts = () => {
   const wrapperRef = useRef<HTMLDivElement>(null)
   const illustrationWrapperRef = useRef<HTMLDivElement>(null)
-  const timeoutRef = useRef<NodeJS.Timeout>(null)
+
+  const timeoutRef = useRef<NodeJS.Timeout>(undefined)
   const activeShortCutIndex = useRef(0)
 
   const scheduleTimeout = () => {
