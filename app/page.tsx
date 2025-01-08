@@ -1,4 +1,12 @@
-import { Clients, Container, HomepageHero, UnlikeAnyTool } from '@/components'
+import {
+  BuildMomentum,
+  Clients,
+  Container,
+  EnjoyIssueTracking,
+  HomepageHero,
+  SetDirection,
+  UnlikeAnyTool,
+} from '@/components'
 import { StarsIllustration } from '@/components/icons'
 import classNames from 'classnames'
 
@@ -22,8 +30,10 @@ const HomePage = () => {
       >
         <StarsIllustration />
       </div>
-
       <UnlikeAnyTool />
+      <EnjoyIssueTracking />
+      <BuildMomentum />
+      <SetDirection />
     </>
   )
 }

@@ -14,8 +14,8 @@ const UnlikeAnyTool = () => {
             you&apos; ve used before
           </h2>
           <p className='text-primary-text mx-auto max-w-[68rem]  text-lg md:text-xl mb-12'>
-            Designed to the last pixel and engineered with unforgiing precision,
-            Linear combines UI elegance with world class performance.
+            Designed to the last pixel and engineered with unforgiving
+            precision, Linear combines UI elegance with world class performance.
           </p>
         </div>
       </Container>
