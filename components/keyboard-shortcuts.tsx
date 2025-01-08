@@ -1,6 +1,6 @@
 'use client'
 
-import { MouseEvent, useCallback, useEffect, useRef, useState } from 'react'
+import { MouseEvent, useEffect, useRef } from 'react'
 import { Button, IconWrapper } from './button'
 import { KeyboardIllustration } from './illustrations'
 
@@ -32,6 +32,7 @@ const KeyboardShortcuts = () => {
   useEffect(() => {
     scheduleTimeout()
     return () => clearTimeout(timeoutRef.current)
+    // eslint-disable-next-line
   }, [])
 
   const goToNextShortCut = () => {
